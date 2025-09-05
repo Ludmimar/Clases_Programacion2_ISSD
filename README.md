@@ -1,57 +1,60 @@
-# 🟢 Proyecto Java: Bucles y Consola
+# 🎓 Curso de Java - Programa de Contenidos
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)  
 [![IDE](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000?style=for-the-badge&logo=intellij-idea&logoColor=white)](https://www.jetbrains.com/idea/)
 
-Este proyecto es una **aplicación en Java** que demuestra el uso de distintos tipos de bucles (`for`, `while`, `do-while`, `for-each`) y la impresión de mensajes en la consola.
+Este repositorio contiene el **programa de contenidos del curso de Java**, desde fundamentos hasta temas avanzados de programación orientada a objetos, colecciones y gestión de archivos.  
+
+> Los contenidos de cada clase se irán subiendo progresivamente.
 
 ---
 
-## 🚀 Funcionalidades
+## 🗓 Programa de Clases
 
-- Mensaje de bienvenida en consola.  
-- Iteración con `for` clásico.  
-- Iteración con `while` y `do-while`.  
-- Iteración con `for-each` para arrays y Strings.  
-
----
-
-## 📂 Contenido
-
-Archivo principal: `Main.java`  
-Ubicación: `src/main/java/org/example/Main.java`
-
----
-
-## 💻 Ejecución
-
-1. Abrir el proyecto en tu IDE (recomendado: IntelliJ IDEA).  
-2. Ejecutar `Main.java` (`Run` o `Shift + F10` en IntelliJ).  
-3. Observar la salida en la consola.
+| Clase | Tema | Tipo |
+|-------|------|------|
+| 0 | 👋 Bienvenida | Introducción |
+| 1 | ⚡ Fundamentos de Java y primeros pasos | Teoría + Práctica |
+| 2 | 🔁 Estructuras repetitivas | Práctica |
+| 3 | 🗃 Arrays de 1 y n dimensiones | Práctica |
+| 4 | 🧩 Programación orientada a objetos | Teoría + Práctica |
+| 5 | 🏗 Composición y herencia | Teoría + Práctica |
+| 6 | 📋 Colecciones y listas | **1° parcial** |
+| 7 | 🗺 Mapas | Práctica |
+| 8 | 📦 Queues, Stack y Set | Práctica |
+| 9 | ⚠ Exceptions | Teoría + Práctica |
+| 10 | 📂 Gestión de archivos | Práctica |
+| 11 | 🚀 Principios de Maven y Spring | **2° parcial** |
 
 ---
 
-## 🔹 Código Destacado
+## 🏆 Promociones y Recuperatorios
 
-```java
-String[] list_names = {"Ana", "Luis", "Pedro"};
-for (String name : list_names) {
-    System.out.println("name = " + name);
-}
+- 📌 Sección dedicada a **promociones y recuperatorios**.  
+- Los materiales se subirán junto con las clases correspondientes.
 
-String palabra = "Hola mundo";
-for (char c : palabra.toCharArray()) {
-    System.out.println("palabra = " + c);
-}
-```
+---
 
-## 🛠 Requisitos
+## 📂 Estructura de Carpetas Sugerida
 
-Java JDK 8 o superior
+Para mantener el repositorio organizado, se usara la siguiente estructura:  
 
-##  IDE recomendado: IntelliJ IDEA
+- /Clase-0
+- /Clase-1
+- /Clase-2
+- ...
+- /Clase-11
+- /Promociones
+- /Recuperatorios
+
+
+Cada carpeta puede contener:  
+- Teoría en PDF o Markdown  
+- Ejemplos de código  
+- Ejercicios y prácticas  
+
+---
 
 ✍️ Autor
 
-Martos Ludmila
-#### [Linkedin](https://www.linkedin.com/in/ludmimar89/)
+Martos Ludmila  [Linkedin](https://www.linkedin.com/in/ludmimar89/)
